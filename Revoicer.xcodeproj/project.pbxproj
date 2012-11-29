@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CFAEF1161E3BFA007C278F /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CFAEEE161E3BE9007C278F /* libpd-ios.a */; };
 		4513EFA31576CAF400C8164E /* RevoicerRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 4513EFA21576CAF400C8164E /* RevoicerRing.png */; };
 		4513EFA61576CB3900C8164E /* ButtonOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 4513EFA41576CB3900C8164E /* ButtonOff.png */; };
 		4513EFA71576CB3900C8164E /* ButtonOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4513EFA51576CB3900C8164E /* ButtonOn.png */; };
@@ -233,20 +234,19 @@
 		45F1FE111530DAEC0088846D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F1FE0A1530DAEC0088846D /* OpenAL.framework */; };
 		45F1FE121530DAEC0088846D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F1FE0B1530DAEC0088846D /* OpenGLES.framework */; };
 		45F1FE131530DAEC0088846D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F1FE0C1530DAEC0088846D /* QuartzCore.framework */; };
-		45F1FE141530DAF60088846D /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F1FDF71530D8A60088846D /* libpd-ios.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		45F1FDF61530D8A60088846D /* PBXContainerItemProxy */ = {
+		29CFAEED161E3BE9007C278F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 45F1FDEF1530D8A60088846D /* libpd.xcodeproj */;
+			containerPortal = 29CFAEE6161E3BE8007C278F /* libpd.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = "libpd-ios";
 		};
-		45F1FDFB1530DA500088846D /* PBXContainerItemProxy */ = {
+		29CFAEEF161E3BF1007C278F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 45F1FDEF1530D8A60088846D /* libpd.xcodeproj */;
+			containerPortal = 29CFAEE6161E3BE8007C278F /* libpd.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = "libpd-ios";
@@ -254,6 +254,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29CFAEE6161E3BE8007C278F /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
 		4513EFA21576CAF400C8164E /* RevoicerRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RevoicerRing.png; sourceTree = "<group>"; };
 		4513EFA41576CB3900C8164E /* ButtonOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonOff.png; sourceTree = "<group>"; };
 		4513EFA51576CB3900C8164E /* ButtonOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonOn.png; sourceTree = "<group>"; };
@@ -604,7 +605,6 @@
 		45F1FD1D1530D6FC0088846D /* NavMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavMenu.h; sourceTree = "<group>"; };
 		45F1FD1E1530D6FC0088846D /* NavMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavMenu.m; sourceTree = "<group>"; };
 		45F1FD1F1530D6FC0088846D /* SynthBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthBuilder.h; sourceTree = "<group>"; };
-		45F1FDEF1530D8A60088846D /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		45F1FE061530DAEC0088846D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		45F1FE071530DAEC0088846D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		45F1FE081530DAEC0088846D /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -619,7 +619,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F1FE141530DAF60088846D /* libpd-ios.a in Frameworks */,
+				29CFAEF1161E3BFA007C278F /* libpd-ios.a in Frameworks */,
 				45F1FE0D1530DAEC0088846D /* AudioToolbox.framework in Frameworks */,
 				45F1FE0E1530DAEC0088846D /* AVFoundation.framework in Frameworks */,
 				45F1FE0F1530DAEC0088846D /* GameKit.framework in Frameworks */,
@@ -636,11 +636,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29CFAEE7161E3BE8007C278F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CFAEEE161E3BE9007C278F /* libpd-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		45F1FB931530D5C80088846D = {
 			isa = PBXGroup;
 			children = (
+				29CFAEE6161E3BE8007C278F /* libpd.xcodeproj */,
 				45E48D341530E687003FB680 /* Icon.png */,
-				45F1FDEF1530D8A60088846D /* libpd.xcodeproj */,
 				45F1FBA81530D5C90088846D /* Revoicer */,
 				45F1FBA11530D5C90088846D /* Frameworks */,
 				45F1FB9F1530D5C90088846D /* Products */,
@@ -1216,14 +1224,6 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		45F1FDF01530D8A60088846D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				45F1FDF71530D8A60088846D /* libpd-ios.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1238,7 +1238,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				45F1FDFC1530DA500088846D /* PBXTargetDependency */,
+				29CFAEF0161E3BF1007C278F /* PBXTargetDependency */,
 			);
 			name = Revoicer;
 			productName = Revoicer;
@@ -1266,8 +1266,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 45F1FDF01530D8A60088846D /* Products */;
-					ProjectRef = 45F1FDEF1530D8A60088846D /* libpd.xcodeproj */;
+					ProductGroup = 29CFAEE7161E3BE8007C278F /* Products */;
+					ProjectRef = 29CFAEE6161E3BE8007C278F /* libpd.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1278,11 +1278,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		45F1FDF71530D8A60088846D /* libpd-ios.a */ = {
+		29CFAEEE161E3BE9007C278F /* libpd-ios.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = "libpd-ios.a";
-			remoteRef = 45F1FDF61530D8A60088846D /* PBXContainerItemProxy */;
+			remoteRef = 29CFAEED161E3BE9007C278F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1524,10 +1524,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		45F1FDFC1530DA500088846D /* PBXTargetDependency */ = {
+		29CFAEF0161E3BF1007C278F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "libpd-ios";
-			targetProxy = 45F1FDFB1530DA500088846D /* PBXContainerItemProxy */;
+			targetProxy = 29CFAEEF161E3BF1007C278F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1568,7 +1568,7 @@
 				OTHER_LDFLAGS = "-lz";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/pd-for-ios/libpd/**";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../../pd-for-ios/libpd/**";
 			};
 			name = Debug;
 		};
@@ -1590,7 +1590,7 @@
 				OTHER_LDFLAGS = "-lz";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/pd-for-ios/libpd/**";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/../../pd-for-ios/libpd/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1602,7 +1602,7 @@
 				GCC_PREFIX_HEADER = "Revoicer/Revoicer-Prefix.pch";
 				GCC_THUMB_SUPPORT = "";
 				INFOPLIST_FILE = "Revoicer/Revoicer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1616,7 +1616,7 @@
 				GCC_PREFIX_HEADER = "Revoicer/Revoicer-Prefix.pch";
 				GCC_THUMB_SUPPORT = "";
 				INFOPLIST_FILE = "Revoicer/Revoicer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				New_Setting = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
